@@ -36,7 +36,7 @@ public class PensamentosController {
         EntityModel<Pensamentos> recurso = EntityModel.of(
                 pensamento.get(),
                 WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(PensamentosController.class).buscarPorId(id)).withSelfRel(),
-                WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(PensamentosController.class).listarTodos()).withRel("all-pensamentos")
+                WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(PensamentosController.class).listarTodos()).withRel("todos-pensamentos")
         );
 
         return ResponseEntity.ok(recurso);
