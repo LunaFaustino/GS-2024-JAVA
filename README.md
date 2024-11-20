@@ -11,6 +11,14 @@ Criamos um sistema de cadastro de possíveis clientes, onde se coloca os pessoai
 Assim será possível entrar em contato com um orçamento. <br>
 Temos um endpoint (pensamentos) que fará conexão com nosso aplicativo mobile, onde o usuário conseguirá colocar insights e demonstrar seu interesse em energias renováveis especificas.
 
+### Link Youtube da Aplicação
+
+https://youtu.be/YsznS6F9spg
+
+### Link Youtube PITCH
+
+https://youtu.be/v8m7SCsKEPs
+
 ### Link do Deploy
 https://gs-2024-java.onrender.com
 (o site dá um shutdown no deploy depois de 20 minutos sem acesso, então a primeira vez que for acessar vai demorar mais para entrar por conta do "redeploy")
